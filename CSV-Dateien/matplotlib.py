@@ -23,6 +23,14 @@ for i in range(len(daten)):
     y.append(float(daten[i][1]))
 
 # Plot
-plt.plot(x, y)
+plt.title("Aufgabe 1", fontsize=20, color="white")
+plt.figure(facecolor='black')
+ax = plt.axes()
+ax.tick_params(axis='x', colors='white')
+ax.tick_params(axis='y', colors='white')
+ax.set_facecolor("black")
+plt.xlabel("x", fontsize=15)
+plt.ylabel("y", fontsize=15)
+plt.plot(x, y, color="white")
 plt.show()
 file.close()
