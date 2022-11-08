@@ -10,6 +10,7 @@
     Everything of HTL Anichstrasse
     <br/>
   </p>
+  <p>Mitschrift: https://thelucas777.notion.site/FSST-2c12d6d9c67547cbb70d39829119f4bd</p>
 </p>
 
 [![Discord](https://img.shields.io/discord/752155454473240698?color=blue&label=Discord&logo=Discord&logoColor=white&style=for-the-badge)][1] ![Commits](https://img.shields.io/github/last-commit/TheLucas777/Python_Kl2_HTLAnichstasse?style=for-the-badge) ![Reposize](https://img.shields.io/github/repo-size/TheLucas777/Python_Kl2_HTLAnichstasse?style=for-the-badge) ![License](https://img.shields.io/github/license/TheLucas777/Python_Kl2_HTLAnichstasse?style=for-the-badge) 
