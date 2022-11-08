@@ -21,4 +21,4 @@
 
 Distributed under the MIT License.
 
-[1]: https://discord.com/invite/Yqzt3vp98d
+[1]: https://discord.com/invite/fwAHpud
