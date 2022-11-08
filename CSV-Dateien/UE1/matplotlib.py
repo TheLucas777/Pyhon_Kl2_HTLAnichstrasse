@@ -1,12 +1,13 @@
 '''
-Matplotlib - Aufgabe 1
-Lucas
+Programm liest daten aus "daten.txt" und erstellt ein Diagramm mit matplotlib
+
+Lucas Grundl
 24.20.22
 '''
 
 import matplotlib.pyplot as plt
 
-# Daten
+# Daten einlesen
 file = open("daten.txt", "r")
 
 # Daten in Liste speichern (splitten)
