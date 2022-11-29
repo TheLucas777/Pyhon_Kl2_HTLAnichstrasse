@@ -6,21 +6,20 @@ Datum: 20.10.2021
 '''
 
 # Ueberprueft ob die zahl groesser gleich 0 ist
-def check_input():
+def input_positive_num():
     inp = 0
     while inp <= 0:
         inp = int(input("Zahl: "))
         if inp <= 0:
             print("Die Zahl muss größer als 0 sein!")
-        else:
-            return inp
+    return inp
 
 
 # Eingabe der 1. Zahl & ueberpruefung durch check_input()
-z1 = check_input()
+z1 = input_positive_num()
 
 # Eingabe der 2. Zahl & ueberpruefung durch check_input()
-z2 = check_input()
+z2 = input_positive_num()
 
 # Berechnung des größten gemeinsamen Teilers
 while z2 != 0:
