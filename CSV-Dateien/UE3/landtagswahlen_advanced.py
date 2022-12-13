@@ -14,7 +14,7 @@ wahlen_2018 = open("2018.csv", "r") # Datei öffnen
 
 
 # Liest die alle daten des ortes Vomp aus
-def get_ort(file,ort):
+def get_ort(file,ort : str) -> list:  # : str ist nur für die Typisierung(d.h. es muss ein String sein) und -> list ist für die Rückgabe
     file = open(file, "r") # Datei öffnen
     data = [] # Liste erstellen
 
