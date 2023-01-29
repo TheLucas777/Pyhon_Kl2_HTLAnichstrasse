@@ -21,11 +21,9 @@ with open(fd.askopenfilename()) as file: # mit open() schießt datei automatisch
 # Ausgabe an den User
 print("Die Datei besteht aus:")
 for key, value in alphabet.items():  # für jeden key und value in alphabet
-    print(f"{key}: {value}")  # ausgabe an den User
-
-print("\n\nDie Datei besteht aus (in %):")
-for key, value in alphabet.items():  # für jeden key und value in alphabet
-    print(f"{key}: {round(value / sum(alphabet.values()) * 100, 2)}%")  # ausgabe an den User
+    print(f"{key}: {value}", end="       ")  # ausgabe an den User
+    print(f"{round(value / sum(alphabet.values()) * 100, 2)}%")
     # round() rundet auf 2 nachkommastellen
     # sum() addiert alle werte in alphabet.values() zusammen
     # value / sum(alphabet.values()) * 100 berechnet den prozentwert
+    print("------------------")
